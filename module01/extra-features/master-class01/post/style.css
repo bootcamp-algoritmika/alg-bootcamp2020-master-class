@@ -1,0 +1,79 @@
+/*
+Color scheme: https://colorhunt.co/palette/174969
+*/
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #a8e6cf;
+    padding: 20px;
+}
+
+main {
+    margin: 40px;
+    text-align: center;
+}
+
+section {
+    background-color: #dcedc1;
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+section:hover {
+    background-color: #a8e6cf;
+}
+
+footer {
+    padding: 10px 20px;
+    background-color: #ffaaa5;
+}
+
+
+img.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.country-image {
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.country-image.gb {
+    background-image: url("images/big-ben.svg");
+}
+
+.country-image.france {
+    background-image: url("images/eiffel-tower.svg");
+}
+
+.country-image.greece {
+    background-image: url("images/parthenon.svg");
+}
+
+.country-image.india {
+    background-image: url("images/taj-mahal.svg");
+}
+
+.country-image.tai {
+    background-image: url("images/great-buddha-of-thailand.svg");
+}
+
+.country-image.germany {
+    background-image: url("images/brandenburg-gate.svg");
+}
+

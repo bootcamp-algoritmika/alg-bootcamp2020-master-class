@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+div.header {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #a8e6cf;
+    padding: 20px;
+}
+
+div.main {
+    margin: 40px;
+}
+
+div.section {
+    background-color: #dcedc1;
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+div.footer {
+    padding: 10px 20px;
+    background-color: #ffaaa5;
+}
+
+
+img.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.country-image {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+
