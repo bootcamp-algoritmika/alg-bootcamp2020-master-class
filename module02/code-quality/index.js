@@ -9,8 +9,8 @@ return ;
 }
 if (isNaN(Number(chyslo)) || Number(chyslo) > 31 || Number(chyslo) < 1 ) {alert('Некорректное число!') ;return ;}
 for (let i=1; i<=Number(m); i++) {prepareResult(i)}
-finalresult += chyslo;
-alert('Количество дней с начала года: ' + finalresult) ;
+finalresult += chyslo
+alert('Количество дней с начала года: ' + finalresult)
 function prepareResult(m) {
 switch (m-1) {
 case 1 : finalresult += 31 ; break ;
