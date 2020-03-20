@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заполнение портфеля клиента</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<h2>Форма добавления акции в портфель</h2>
+
+<div class="add-form">
+    <p>Введите параметры акции</p>
+    <div class="input-with-caption">
+        <div>Название акции</div>
+        <div><input id="stock-name" type="text"/></div>
+    </div>
+    <div class="input-with-caption">
+        <div>Ticker</div>
+        <div><input id="stock-ticker" type="text"/></div>
+    </div>
+    <div class="input-with-caption">
+        <div>Доходность</div>
+        <div><input id="stock-yield" type="text"/></div>
+    </div>
+    <div class="input-with-caption">
+        <div>Стоимость</div>
+        <div><input id="stock-price" type="text"/></div>
+    </div>
+    <div class="input-with-caption">
+        <div>Количество</div>
+        <div><input id="stock-amount" type="text"/></div>
+    </div>
+
+    <div id="button">Добавить</div>
+</div>
+
+<h2>Портфель клиента</h2>
+
+<div id="briefcase"> </div>
+
+<script>
+    new Application() ;
+</script>
+
+</body>
+</html>

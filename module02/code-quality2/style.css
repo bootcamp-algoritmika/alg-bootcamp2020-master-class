@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+div.add-form {
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+div.input-with-caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button {
+    background: #a8a8a8;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: #5D5D5D;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid #cccccc;
+}
+
+tr.active {
+    cursor: pointer;
+}
+
+table tr.active:hover {
+    background: #c9c9c9;
+}
+
+
+table th {
+    background: #eff1f5;
+    padding: 10px;
+    text-align: center;
+}
+
+table td {
+    padding: 4px;
+    text-align: center;
+}
