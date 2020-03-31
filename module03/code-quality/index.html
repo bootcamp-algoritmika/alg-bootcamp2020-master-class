@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Адресная книга</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<div id="phonebook">
+
+</div>
+
+<div id="popup-background">
+    <div class="popup">
+        <form name="phonebook">
+            <div class="control-block">
+                <label for="popup-user-last-name">Фамилия</label>
+                <input type="text" name="user_last_name" id="popup-user-last-name" required/>
+            </div>
+            <div class="control-block">
+                <label for="popup-user-name">Имя</label>
+                <input type="text" name="user_name" id="popup-user-name" required/>
+            </div>
+            <div class="control-block">
+                <label for="popup-user-middle-name">Отчество</label>
+                <input type="text" name="user_middle_name" id="popup-user-middle-name" required/>
+            </div>
+            <div class="control-block">
+                <label for="popup-user-phone">Телефон</label>
+                <input type="tel" name="user_phone" id="popup-user-phone" required/>
+            </div>
+            <div class="submit-block">
+                <input type="submit" value="Сохранить">
+            </div>
+        </form>
+        <div class="cross-sign">❌</div>
+    </div>
+</div>
+
+<div id="add-button" onclick="addNew()">+ Добавить</div>
+
+</body>
+</html>
